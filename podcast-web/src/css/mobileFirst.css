@@ -1,0 +1,24 @@
+/* === Mobile === */
+@media (max-width: 640px) {
+}
+
+/* === Media Screen === */
+@media (min-width: 768px) {
+}
+
+/* === Screen= == */
+/*=============== Screen Laptop ===================================*/
+@media screen and (min-width: 1024px) {
+}
+
+/*=============== #Option Screen  ===================================*/
+@media only screen and (min-width: 1280px) {
+}
+
+/*=============== Laptop Large Screen  ===================================*/
+@media only screen and (min-width: 1440px) {
+}
+
+/*=============== Laptop Xtra Large =================================*/
+@media only screen and (min-width: 1920px) {
+}

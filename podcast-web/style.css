@@ -1,11 +1,35 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* === Import Css === */
+@import url(./src/css/mobileFirst.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* === Root - Design System === */
+:root {
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-black2: #333;
+  --clr-primary: #9b72f2;
+  --clr-secondary: #535bf2;
+  --clr-base: #212529;
+  --clr-three: #ffd23f;
+
+  --font-family: 'Roboto', sans-serif;
+
+  --font-size-text: 1.2rem;
+  --font-size-normal: 1.6rem;
+  --font-size-subTitle: 1.8rem;
+
+  --margin: 2rem auto;
+  --margin-top: 2rem;
+  --margin-bottom: 2rem;
+  --margin-right: 1rem;
+  --margin-left: 1rem;
+
+  --padding: 1rem;
+  --padding-bottom: 1.5rem 3rem;
+
+  --border-radius: 1rem;
+  --border-radius-plus: 2rem;
+  --border-radius-circle: 50%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,26 +38,51 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* === General CSS === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 a {
-  font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
+
+ul {
+  list-style: none;
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 10%;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3.2rem;
+  line-height: 0.1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
 }
 
 #app {
@@ -43,47 +92,8 @@ h1 {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+/* === Prefer Color === */
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -95,3 +105,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+ */
