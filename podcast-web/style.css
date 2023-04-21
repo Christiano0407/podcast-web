@@ -69,7 +69,9 @@ img {
 }
 
 body {
-  width: 10%;
+  width: 100%;
+  background: var(--clr-base);
+  color: var(--clr-white);
 }
 
 h1 {
@@ -106,3 +108,8 @@ h3 {
   }
 }
  */
+.img-coffee {
+  width: 3rem;
+  height: 2rem;
+  object-fit: cover;
+}

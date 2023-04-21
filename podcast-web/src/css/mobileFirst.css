@@ -1,9 +1,62 @@
 /* === Mobile === */
 @media (max-width: 640px) {
+  .header {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid green;
+    margin-bottom: var(--margin-bottom);
+  }
 }
 
 /* === Media Screen === */
 @media (min-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid red;
+    margin-bottom: var(--margin-bottom);
+  }
+  .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .navigation .navigation-logo {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+  }
+  .navigation-logo .img-coffee {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+  .navigation-logo span {
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .navigation__plus {
+    width: 35rem;
+  }
+  .navigation__plus--list,
+  .navigation__media--list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .navigation__plus--list .list-item,
+  .media-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #f2f2f2;
+  }
+  .navigation__media {
+    width: 15rem;
+  }
 }
 
 /* === Screen= == */
