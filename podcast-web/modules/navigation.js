@@ -1,7 +1,9 @@
+//** ==== ==== === Import ===  ==== ==== */
 import '../style.css';
 import imgLogo from '../src/icon/icons8-kawaii-coffee-48.png';
 import imgUser from '../src/icon/perfil.png';
 
+//**! === DOM Header & Nav ===  */
 document.querySelector(`.navigation`).innerHTML = `
    <div  class="navigation-logo">
     <img src= ${imgLogo} class="img-coffee">
