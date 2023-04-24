@@ -53,9 +53,66 @@
     font-size: 1.2rem;
     font-weight: 400;
     color: #f2f2f2;
+    z-index: 0;
   }
   .navigation__media {
     width: 15rem;
+  }
+
+  /* === User img === */
+  .user-figure {
+    width: 3rem;
+    height: 3rem;
+  }
+  .user-figure .user-img {
+    border-radius: 50%;
+  }
+}
+
+/* === Hover && before and after === */
+@media (min-width: 768px) {
+  .list-item:hover {
+    color: var(--clr-primary);
+    cursor: pointer;
+  }
+  .list-item::before {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    position: relative;
+    top: 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+  }
+  .list-item:hover::before {
+    transform: scale(1);
+  }
+}
+
+/* === main - App */
+@media (min-width: 768px) {
+  .app-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .main-figure {
+    width: 12rem;
+    height: 4rem;
+  }
+  .main-figure-img {
+    object-fit: cover;
+  }
+  .main-text {
+    font-size: 6rem;
+    font-weight: bold;
   }
 }
 

@@ -1,5 +1,6 @@
 import '../style.css';
 import imgLogo from '../src/icon/icons8-kawaii-coffee-48.png';
+import imgUser from '../src/icon/perfil.png';
 
 document.querySelector(`.navigation`).innerHTML = `
    <div  class="navigation-logo">
@@ -19,12 +20,19 @@ document.querySelector(`.navigation`).innerHTML = `
    </div>
 
    <div class="navigation__media">
-    <ul class="navigation__media--list">
-       <li class="media-item">Tw</li>
-       <li class="media-item">Ins</li>
-       <li class="media-item">You</li>
-       <li class="media-item">Tik</li>
-       <li class="media-item">Twi</li>
-    </ul>
+      <ul class="navigation__media--list">
+         <li class="media-item"><i class="fa-brands fa-twitter"></i></li>
+         <li class="media-item"><i class="fa-brands fa-instagram"></i></li>
+         <li class="media-item"><i class="fa-brands fa-youtube"></i></li>
+         <li class="media-item"><i class="fa-brands fa-tiktok"></i></li>
+         <li class="media-item"><i class="fa-brands fa-twitch"></i></li>
+         <li class="media-item"><i class="fa-brands fa-spotify"></i></li>
+      </ul>
+   </div>
+    
+   <div class="navigation__user">
+      <figure class="user-figure">
+         <img src=${imgUser} class="user-img">
+      </figure>
    </div>
 `;
