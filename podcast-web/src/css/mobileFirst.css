@@ -161,6 +161,51 @@
   .app-started button:active {
     transform: scale(0.9);
   }
+
+  .podcast__app {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  .podcast__app--new {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    padding: 1rem;
+    margin: 2rem auto;
+  }
+  .podcast-title {
+    width: 50%;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #9b72f2;
+    text-transform: uppercase;
+  }
+  .news-texts {
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+  }
+  .podcast-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    filter: brightness(0.5);
+    margin-bottom: 1.5rem;
+  }
+  .news-btn {
+    padding: 1rem;
+    background: transparent;
+    color: #fff;
+    font-weight: 500;
+    width: 15rem;
+    border: 2px solid #f2f2f2;
+  }
+
+  .podcast__app--images {
+    width: 100%;
+    display: grid;
+  }
 }
 @media (min-width: 768px) {
   .app-list {

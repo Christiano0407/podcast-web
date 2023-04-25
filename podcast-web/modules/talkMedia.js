@@ -29,4 +29,20 @@ document.querySelector(`#appMedia`).innerHTML = `
          </div>
       </div>
    </div>
+
+   <section class="podcast__app" id="appPodcast">
+      <div class="podcast__app--new">
+         <h2 class="podcast-title">Best News Of This Week</h2>
+         <div class="news-texts">
+            <p class="podcast-text"> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+               anything embarrassing hidden in the middle of text.
+            </p>
+            <button class="news-btn">ReadMore</button>
+         </div>
+      </div>
+
+      <div class="podcast__app--images">
+      
+      </div>
+   </section>
 `;
