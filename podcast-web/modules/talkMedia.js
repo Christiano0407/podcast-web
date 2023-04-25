@@ -3,6 +3,8 @@ import '../style.css';
 import microBlack from '../src/img/microBlack.jpg';
 import microColor from '../src/img/microColor.jpg';
 import microAudio from '../src/img/microAudio.jpg';
+import microOne from '../src/img/micro1.jpg';
+import microTwo from '../src/img/micro2.jpg';
 
 //**! === Talk Media === */
 document.querySelector(`#appMedia`).innerHTML = `
@@ -42,7 +44,31 @@ document.querySelector(`#appMedia`).innerHTML = `
       </div>
 
       <div class="podcast__app--images">
-      
+         <div class="images-plus one">
+            <figure>
+               <img class="micro-images" src=${microAudio}>
+            </figure>
+         </div>
+         <div class="images-plus two">
+            <figure>
+               <img src=${microBlack}>
+            </figure>
+         </div>
+         <div class="images-plus three">
+            <figure>
+               <img src=${microColor}>
+            </figure>
+         </div>
+         <div class="images-plus four">
+            <figure>
+               <img src=${microOne}>
+            </figure>
+         </div>
+         <div class="images-plus five">
+            <figure>
+               <img src=${microTwo}>
+            </figure>
+         </div>
       </div>
    </section>
 `;

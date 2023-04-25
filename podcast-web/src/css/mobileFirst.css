@@ -204,7 +204,49 @@
 
   .podcast__app--images {
     width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .images-plus {
+    width: 100%;
+    height: 25rem;
+  }
+  .images-plus figure {
+    width: 100%;
+    height: 100%;
+  }
+  .images-plus .figure img {
+    object-fit: cover;
+  }
+  .one {
+    grid-column: 1 / 2;
+    width: 100%;
+  }
+  .two {
+    grid-column: 2 / 4;
+    width: 100%;
+    background-position: top;
+  }
+  .three {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+  }
+  .four {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 100%;
+  }
+  .five {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 100%;
+  }
+  .micro-images {
   }
 }
 @media (min-width: 768px) {
