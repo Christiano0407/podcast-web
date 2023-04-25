@@ -1,5 +1,8 @@
 //** === ==== Media Javascript ==== ===  */
 import '../style.css';
+import microBlack from '../src/img/microBlack.jpg';
+import microColor from '../src/img/microColor.jpg';
+import microAudio from '../src/img/microAudio.jpg';
 
 //**! === Media === */
 document.querySelector(`#appList`).innerHTML = `
