@@ -377,6 +377,88 @@
 }
 /* ==== App Week ==== */
 @media (min-width: 768px) {
+  .podcast__week {
+    width: 100%;
+    padding: 1rem;
+  }
+  .podcast__week--top {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    gap: 2rem;
+  }
+  .podcast-text-plus {
+    font-size: 4.5rem;
+    color: #f2f2f2;
+    filter: none;
+    font-weight: bold;
+  }
+  .podcast-readMore {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .podcast-paragraph {
+    font-size: 1.2rem;
+    filter: brightness(0.5);
+    margin-bottom: 1rem;
+  }
+  .podcast-btn {
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+  }
+  .podcast__listWeek {
+    width: 90%;
+    margin: 2rem auto;
+    display: grid;
+    /*  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    gap: 2rem;
+  }
+  .podcast__listWeek--music {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .music-number {
+    margin: 0 2rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  .music-figure {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 1rem;
+  }
+  .music-figure .music-img {
+    border-radius: 1rem;
+  }
+  .music-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .music-text p {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+  .music-text span {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .music-icon {
+    position: relative;
+    left: 15rem;
+  }
 }
 
 /* === Screen= == */
