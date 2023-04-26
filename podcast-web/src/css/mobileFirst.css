@@ -224,19 +224,23 @@
   }
   .one {
     grid-column: 1 / 2;
+    grid-row: 1 / 3;
     width: 100%;
+    height: 50rem;
+  }
+  .one .micro-images {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
   .two {
     grid-column: 2 / 4;
     width: 100%;
     background-position: top;
   }
-  .three {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    width: 100%;
+  .two .micro-images {
+    border-top-right-radius: 2rem;
   }
-  .four {
+  .three {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     width: 100%;
@@ -246,7 +250,8 @@
     grid-row: 2 / 3;
     width: 100%;
   }
-  .micro-images {
+  .five .micro-images {
+    border-bottom-right-radius: 2rem;
   }
 }
 @media (min-width: 768px) {

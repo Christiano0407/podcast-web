@@ -5,6 +5,7 @@ import microColor from '../src/img/microColor.jpg';
 import microAudio from '../src/img/microAudio.jpg';
 import microOne from '../src/img/micro1.jpg';
 import microTwo from '../src/img/micro2.jpg';
+import microPlus from '../src/3d/3DOne.jpg';
 
 //**! === Talk Media === */
 document.querySelector(`#appMedia`).innerHTML = `
@@ -51,22 +52,17 @@ document.querySelector(`#appMedia`).innerHTML = `
          </div>
          <div class="images-plus two">
             <figure>
-               <img src=${microBlack}>
+               <img class="micro-images"  src=${microOne}>
             </figure>
          </div>
          <div class="images-plus three">
             <figure>
-               <img src=${microColor}>
-            </figure>
-         </div>
-         <div class="images-plus four">
-            <figure>
-               <img src=${microOne}>
+               <img class="micro-images"  src=${microPlus}>
             </figure>
          </div>
          <div class="images-plus five">
             <figure>
-               <img src=${microTwo}>
+               <img class="micro-images"  src=${microTwo}>
             </figure>
          </div>
       </div>
