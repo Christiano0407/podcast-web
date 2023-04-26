@@ -285,7 +285,8 @@
 }
 /* === Media Talk === */
 @media (min-width: 768px) {
-  .app-media {
+  .app-media,
+  .app-week {
     width: 100%;
     margin: 2rem auto;
     padding: 1rem;
@@ -373,6 +374,9 @@
     color: #9b72f2;
     font-weight: bold;
   }
+}
+/* ==== App Week ==== */
+@media (min-width: 768px) {
 }
 
 /* === Screen= == */
