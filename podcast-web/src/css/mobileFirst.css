@@ -458,9 +458,27 @@
   .music-icon {
     position: relative;
     left: 15rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
-
+/* === Our Creators === */
+@media (min-width: 768px) {
+}
+/* === Footer === */
+@media (min-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 50rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    outline: 3px solid greenyellow;
+  }
+}
 /* === Screen= == */
 /*=============== Screen Laptop ===================================*/
 @media screen and (min-width: 1024px) {

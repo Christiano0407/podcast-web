@@ -34,7 +34,7 @@ document.querySelector(`#appWeek`).innerHTML = `
                 <p>Stronger Spirit</p>
                 <pan>V.O.C.E</pan>
             </div>
-            <a class="music-icon">Icon</a>
+            <button class="music-icon"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="podcast__listWeek--music">
@@ -46,7 +46,7 @@ document.querySelector(`#appWeek`).innerHTML = `
                 <p>Stronger Spirit</p>
                 <pan>V.O.C.E</pan>
             </div>
-            <a class="music-icon">Icon</a>
+            <button class="music-icon"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="podcast__listWeek--music">
@@ -58,7 +58,7 @@ document.querySelector(`#appWeek`).innerHTML = `
                 <p>Stronger Spirit</p>
                 <pan>V.O.C.E</pan>
             </div>
-            <a class="music-icon">Icon</a>
+            <button class="music-icon"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="podcast__listWeek--music">
@@ -70,7 +70,7 @@ document.querySelector(`#appWeek`).innerHTML = `
                 <p>Stronger Spirit</p>
                 <pan>V.O.C.E</pan>
             </div>
-            <a class="music-icon">Icon</a>
+            <button class="music-icon"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="podcast__listWeek--music">
@@ -82,7 +82,7 @@ document.querySelector(`#appWeek`).innerHTML = `
                 <p>Stronger Spirit</p>
                 <pan>V.O.C.E</pan>
             </div>
-            <a class="music-icon">Icon</a>
+            <button class="music-icon"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="podcast__listWeek--music">
@@ -94,7 +94,7 @@ document.querySelector(`#appWeek`).innerHTML = `
                 <p>Stronger Spirit</p>
                 <pan>V.O.C.E</pan>
             </div>
-            <a class="music-icon">Icon</a>
+            <button class="music-icon"><i class="fa-solid fa-play"></i></button>
         </div>
 
     </div>
