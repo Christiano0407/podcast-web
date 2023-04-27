@@ -543,6 +543,11 @@
     padding: 1rem;
     outline: 3px solid greenyellow;
     background-color: #111;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 150px;
+    gap: 1.5rem;
   }
 }
 /* === Screen= == */
