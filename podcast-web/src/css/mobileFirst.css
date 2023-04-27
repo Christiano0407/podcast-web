@@ -475,7 +475,7 @@
   }
   .slider__container {
     overflow: hidden;
-    outline: 2px solid #fff;
+    /* outline: 2px solid #fff; */
     width: 90%;
     margin: 0 auto;
     padding: 2rem;
@@ -498,6 +498,7 @@
     /*  width: auto */
     height: 100%;
     border-radius: 2rem;
+    filter: brightness(0.5);
   }
   .carousel-display {
     position: relative;
@@ -517,7 +518,16 @@
     justify-content: center;
     align-items: center;
     border: none;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+    background: transparent;
+    border: 3px solid #fff;
+  }
+  .carousel-display button:hover {
+    background-color: #fff;
+    border: none;
+  }
+  .carousel-display button:active {
+    transform: scale(0.9);
   }
   .carousel-display span {
     font-size: 1.2rem;

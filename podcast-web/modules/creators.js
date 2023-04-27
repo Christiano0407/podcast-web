@@ -51,7 +51,7 @@ slider.innerHTML = `
     </div>
   </div>
   <div class="carousel">
-    img class="imgSlider" id="idImg"  src=${sliderImgOne}>
+    <img class="imgSlider" id="idImg"  src=${sliderImgOne}>
     <div class="carousel-display">
         <button class="display-icon"><i class="fa-solid fa-play"></i></button>
         <span>How to create your voice in a Podcast</span>
