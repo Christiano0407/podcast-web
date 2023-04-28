@@ -540,12 +540,12 @@
     width: 100%;
     margin-top: 3rem;
     padding: 1rem;
-    outline: 3px solid greenyellow;
+    /*  outline: 3px solid greenyellow; */
     background-color: #111;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 80px;
+    grid-template-rows: 1fr 1fr 5rem;
     gap: 1.5rem;
   }
   .footer__company {
@@ -612,40 +612,79 @@
   }
   .formulary-plus {
     width: 90%;
+    height: 100%;
     margin: 0 auto;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
   }
   .formulary-title {
     margin: 1rem auto;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #9b72f2;
+    text-transform: uppercase;
   }
   .formulary-user,
   .formulary-email {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: center; */
     align-items: center;
     width: 100%;
   }
   .formulary-user input,
   .formulary-email input {
-    padding: 0.5rem;
+    padding: 1rem;
     outline: none;
     border: none;
     border-radius: 0.5rem;
+    width: 60%;
   }
   .formulary-user label,
   .formulary-email label {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: #9b72f2;
     filter: brightness(0.7);
+    margin-right: 1.5rem;
+  }
+  .formulary-btn {
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+  }
+  .formulary-btn span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #9b72f2;
+  }
+  .copy-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+  }
+  .socialMedia-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+  }
+  .legal-list {
+    width: 16rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .copy-copyright span {
+    color: #9b72f2;
   }
 }
 /* === Screen= == */
