@@ -457,7 +457,7 @@
   }
   .music-icon {
     position: relative;
-    left: 15rem;
+    left: 5rem;
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -503,24 +503,28 @@
   .carousel-display {
     position: relative;
     z-index: 10;
-    bottom: 8rem;
+    bottom: 12rem;
     width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     padding: 1rem;
+    flex-direction: column;
   }
   .carousel-display button {
-    width: 3.5rem;
+    width: 3rem;
     height: 3rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
-    margin-right: 1rem;
+    /* border: none; */
+    /*  margin-right: 1rem; */
     background: transparent;
     border: 3px solid #fff;
+    position: relative;
+    right: 6rem;
+    margin-bottom: 1rem;
   }
   .carousel-display button:hover {
     background-color: #fff;
@@ -530,7 +534,7 @@
     transform: scale(0.9);
   }
   .carousel-display span {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 700;
   }
 }
@@ -690,16 +694,107 @@
 /* === Screen= == */
 /*=============== Screen Laptop ===================================*/
 @media screen and (min-width: 1024px) {
+  .music-icon {
+    left: 9rem;
+  }
+  .carousel-display button {
+    right: 8rem;
+  }
+  .copy-line {
+    width: 100%;
+  }
 }
 
 /*=============== #Option Screen  ===================================*/
 @media only screen and (min-width: 1280px) {
+  .main-figure {
+    width: 45rem;
+    height: 4rem;
+  }
+  .navigation__plus--list .list-item,
+  .media-item {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .podcast-title {
+    font-size: 4.5rem;
+  }
+  .carousel-display button {
+    right: 11rem;
+  }
+  .carousel-display span {
+    font-size: 1.6rem;
+  }
+  .formulary-user input,
+  .formulary-email input {
+    width: 80%;
+  }
+  .footer__company .company-title {
+    font-size: 3rem;
+  }
 }
 
 /*=============== Laptop Large Screen  ===================================*/
 @media only screen and (min-width: 1440px) {
+  .main-figure {
+    width: 50rem;
+    height: 4rem;
+  }
+  .navigation__plus {
+    width: 45rem;
+  }
+  .navigation__plus--list .list-item,
+  .media-item {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .podcast-paragraph {
+    font-size: 1.6rem;
+  }
+  .music-icon {
+    left: 20rem;
+  }
+  .carousel-display button {
+    right: 13rem;
+  }
+  .carousel-display span {
+    font-size: 2.2rem;
+  }
+  .footer__company .company-title {
+    font-size: 3rem;
+  }
+  .formulary-user input,
+  .formulary-email input {
+    width: 80%;
+  }
 }
 
 /*=============== Laptop Xtra Large =================================*/
 @media only screen and (min-width: 1920px) {
+  .navigation__plus--list .list-item,
+  .media-item {
+    font-size: 1.8rem;
+  }
+  .main-figure {
+    width: 80rem;
+    height: 4rem;
+  }
+  .carousel-display button {
+    right: 18rem;
+  }
+  .carousel-display span {
+    font-size: 3rem;
+  }
+  .carousel-display {
+    bottom: 16rem;
+  }
+  .music-icon {
+    left: 35rem;
+  }
+  .podcast-paragraph {
+    font-size: 1.8rem;
+  }
+  .podcast-text {
+    font-size: 1.8rem;
+  }
 }
